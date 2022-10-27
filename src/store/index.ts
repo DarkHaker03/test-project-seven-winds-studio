@@ -1,10 +1,8 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import appReducer from 'app/model';
-import headerReducer from 'widgets/header/model';
 
 const rootReducer = combineReducers({
   appReducer,
-  headerReducer,
 });
 
 export const setupStore = () =>

@@ -1,0 +1,16 @@
+.bottom {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.btn {
+  padding: 8px 23px;
+  display: flex;
+  align-items: center;
+}
+.active {
+  background-color: #a1a1aa;
+}
+.icon {
+  margin-right: 17px;
+}
