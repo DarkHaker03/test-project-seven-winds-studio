@@ -20,6 +20,7 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
+    "no-param-reassign": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
@@ -28,14 +29,7 @@
     ],
     "react/require-default-props": "off",
     "import/prefer-default-export": "off",
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "tsx": "never",
-        "ts": "never"
-      }
-    ],
+    "import/extensions": "off",
     "react/function-component-definition": [
       2,
       {
