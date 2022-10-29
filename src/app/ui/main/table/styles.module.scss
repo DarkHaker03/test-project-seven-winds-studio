@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  background-color: #202124;
+  padding: 10px;
+  min-height: 100%;
+}
+.table {
+  border-spacing: 0;
+  width: 100%;
+  font-size: 14px;
+}
+tr {
+  height: 60px;
+  th:first-child {
+    padding-left: 12px;
+  }
+  td:first-child {
+    padding-left: 24px;
+  }
+}
+th {
+  text-align: start;
+  color: #a1a1aa;
+  border-bottom: solid 1px #414144;
+}
+td {
+  text-align: start;
+  border-bottom: solid 1px #414144;
+  color: #fff;
+}
+input {
+  all: unset;
+}

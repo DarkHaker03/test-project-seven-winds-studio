@@ -1,0 +1,46 @@
+// .verticalLine {
+//   height: 54px;
+//   width: 1px;
+//   background-color: #c6c6c6;
+// }
+// .gorizontalLine {
+//   width: 11px;
+//   height: 1px;
+//   background-color: #c6c6c6;
+// }
+// .line {
+// }
+// .container {
+//   position: relative;
+//   width: 20px;
+//   height: 16px;
+// }
+// .img {
+//   position: absolute;
+//   z-index: 2;
+//   left: -50%;
+// }
+.verticalLine {
+  height: 60px;
+  width: 1px;
+  background-color: #c6c6c6;
+}
+.gorizontalLine {
+  width: 11px;
+  height: 1px;
+  background-color: #c6c6c6;
+}
+.line {
+  position: absolute;
+  bottom: -48px;
+}
+.container {
+  position: relative;
+  width: 20px;
+  height: 16px;
+}
+.img {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+}
